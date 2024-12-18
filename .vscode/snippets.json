@@ -1,0 +1,7 @@
+  {
+    "html": {
+      "snippets": {
+        "img_": "<img class=\"${1:class}\" src=\"${2:/}\" alt=\"${3:/}\" width=\"${4:100}\" height=\"${5:100}\" loading=\"${6:lazy}\">"
+      }
+    }
+  }

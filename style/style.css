@@ -1250,9 +1250,6 @@ h4,
          column-gap: 30px;
   }
 }
-.reviews__slider-list::-webkit-scrollbar {
-  background: transparent;
-}
 @media (min-width: 1024px) {
   .reviews__slider-list {
     margin-left: calc(var(--reviewsSliderSlideWidth) / 2 * -1);

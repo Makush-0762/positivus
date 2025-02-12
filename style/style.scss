@@ -1,14 +1,12 @@
-@import
-'normalize', 
-'fonts', 
+@import 'normalize',
+'fonts',
 'mixins',
-'media', 
+'media',
 'variables',
 'utils',
 'globals';
 
-@import 
-'./blocks/_grid',
+@import './blocks/_grid',
 './blocks/_burgur-button',
 './blocks/_button',
 './blocks/_header',
@@ -20,5 +18,11 @@
 './blocks/_services',
 './blocks/_services-card',
 './blocks/_banner',
-'./blocks/_studies'
+'./blocks/_studies',
+'./blocks/_process',
+'./blocks/_team',
+'./blocks/_team-card',
+'./blocks/_pagination',
+'./blocks/_reviews',
+'./blocks/_review-card'
 ;

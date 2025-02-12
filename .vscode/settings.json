@@ -1,4 +1,5 @@
 {
     "prettier.htmlWhitespaceSensitivity": "css",
-    "emmet.showAbbreviationSuggestions": true
+    "emmet.showAbbreviationSuggestions": true,
+    // "cssvar.extensions.scss.enable": true
 }

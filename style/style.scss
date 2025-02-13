@@ -6,7 +6,10 @@
 'utils',
 'globals';
 
-@import './blocks/_grid',
+@import './blocks/_field',
+'./blocks/_radios',
+'./blocks/_radio',
+'./blocks/_grid',
 './blocks/_burgur-button',
 './blocks/_button',
 './blocks/_header',
@@ -24,5 +27,6 @@
 './blocks/_team-card',
 './blocks/_pagination',
 './blocks/_reviews',
-'./blocks/_review-card'
+'./blocks/_review-card',
+'./blocks/_contact-us'
 ;

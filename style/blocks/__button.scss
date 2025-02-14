@@ -1,4 +1,4 @@
-.button{
+.button {
     @include flex-center(true);
 
     height: var(--button-height);
@@ -14,8 +14,18 @@
         background-color: var(--color-accent);
     }
 
-    &--transparent{
+    &--transparent {
         color: var(--color-dark);
         background-color: transparent;
+    }
+
+    &--accent {
+        background-color: var(--color-accent);
+        color: var(--color-dark);
+
+        @include hover {
+            color: var(--color-accent);
+            background-color: var(--color-dark);
+        }
     }
 }
